@@ -41,6 +41,10 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+// Ruta para recibir parametros por la URL
+//$route['default_controller'] = 'comercio/ver';
+//$route['(:any)'] = 'comercio/ver/$1';
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
